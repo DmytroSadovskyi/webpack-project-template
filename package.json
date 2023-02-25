@@ -1,5 +1,5 @@
 {
-  "name": "webpack-template",
+  "name": "webpack-project-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,17 @@
     "start": "webpack serve",
     "dev": "webpack",
     "prod": "webpack --node-env=production",
-    "clear": "rd /s /q dist"
+    "clear": "rd /s /q dist",
+    "deploy": "gh-pages -d dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmytroSadovskyi/webpack-project-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DmytroSadovskyi/webpack-project-template/issues"
+  },
+  "homepage": "github.com/DmytroSadovskyi/webpack-project-template#readme",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,6 +26,7 @@
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
+    "gh-pages": "^5.0.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "image-webpack-loader": "^8.1.0",
