@@ -297,4 +297,4 @@ summary {
 	display: list-item;
 }
 
-@font-face{font-family:"Montserrat";src:url(fonts/montserrat-v23-latin_cyrillic-700.woff2) format("woff2"),url(fonts/montserrat-v23-latin_cyrillic-700.woff) format("woff")}body{font-family:"Montserrat";background-color:#fff;color:#000;background-image:url(assets/switzerland.jpg);background-repeat:no-repeat;background-size:cover}
+@font-face{font-family:"Montserrat";src:url(fonts/montserrat-v23-latin_cyrillic-700.woff2) format("woff2"),url(fonts/montserrat-v23-latin_cyrillic-700.woff) format("woff")}body{font-family:"Montserrat";background-color:beige;color:#000}
